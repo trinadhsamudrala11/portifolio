@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-48 h-48 rounded-full overflow-hidden ring-4 ring-white shadow-xl">
                 <img
-                  src="profile.PNG"
+                  src="profile.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
@@ -48,10 +48,10 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex justify-center md:justify-start space-x-6">
-            <SocialLink href="https://github.com/phanikum4r" icon={<Github />} label="GitHub" />
-            <SocialLink href="https://www.linkedin.com/in/phani-kanuri/" icon={<Linkedin />} label="LinkedIn" />
-            <SocialLink href="https://leetcode.com/u/phanikum4r/" icon={<Code />} label="Leetcode" />
-            <SocialLink href="mailto:phani.kumar855@gmail.com" icon={<Mail />} label="Email" />
+            <SocialLink href="https://github.com/trinadhsamudrala11" icon={<Github />} label="GitHub" />
+            <SocialLink href="https://www.linkedin.com/trinadh-samudrala" icon={<Linkedin />} label="LinkedIn" />
+            <SocialLink href="https://leetcode.com/u/trinadh11/" icon={<Code />} label="Leetcode" />
+            <SocialLink href="mailto:trinadhsamudrala11@gmail.com" icon={<Mail />} label="Email" />
           </div>
         </div>
       </div>

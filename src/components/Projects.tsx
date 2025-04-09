@@ -6,29 +6,30 @@ import { Section } from './shared/Section';
 const Projects = () => {
   const projects = [
     {
-      title: 'Decentralized-Blockchain-App',
-      description: 'Implemented a Blockchain-based application using Ethereum, Solidity, IPFS, Node.js, React and web development tools.',
-      image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&q=80',
-      tech: ['Hyperledger', 'Etherium', 'Solidity', 'RemixIDE', 'Metamask', 'React', 'Node.js', 'JSON'],
-      github: 'https://github.com/phanikum4r/Decentralized-Blockchain-App',
+      title: 'Smart Spectacles',
+      description: 'An assistive wearable that uses AI-powered object detection to help visually impaired users recognize people and objects in real time.',
+      image: 'https://images.unsplash.com/photo-1590650503308-7b9cfdc54f24?auto=format&fit=crop&w=800&q=80',
+      tech: ['OpenCV', 'Python', 'YOLOv3', 'TensorFlow', 'Flask', 'Raspberry Pi', 'MQTT'],
+      github: 'https://github.com/trinadhsamudrala11/smart-spectacles', // Replace with actual link if different
       demo: 'https://example.com',
     },
     {
-      title: 'Fraud Detection System',
-      description: 'A Fraud Detection System to detect fraudulent transactions using both traditional features and graph-based network features extracted from a graph database',
-      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80',
-      tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Neo4j', 'Cypher', 'Logistic Regression', 'Random Forest', 'Support Vector Machine'],
-      github: 'https://github.com/phanikum4r/Fraud-Detection-With-Graph-Databases-and-Machine-Learning',
+      title: 'Lie Detector System',
+      description: 'A physiological signal-based lie detector built using sensors and real-time analysis via BeagleBone Black and Python.',
+      image: 'https://images.unsplash.com/photo-1607082350919-175ec4878a05?auto=format&fit=crop&w=800&q=80',
+      tech: ['Python', 'BeagleBone Black', 'Sensors', 'Matplotlib', 'R', 'Data Acquisition'],
+      github: 'https://github.com/trinadhsamudrala11/lie-detector-system', // Replace if needed
       demo: 'https://example.com',
     },
     {
-      title: 'Online Course Portal',
-      description: 'Online course portal for users to enroll courses and take quizzes online.',
-      image: 'https://images.unsplash.com/photo-1518932945647-7a1c969f8be2?auto=format&fit=crop&w=800&q=80',
-      tech: ['Python', 'Django', 'React', 'Javascript', 'SQL'],
-      github: 'https://github.com/phanikum4r/Online_Course_Portal',
+      title: 'Electronic Store Web App',
+      description: 'A full-stack web application for an online electronics store with shopping cart, inventory, and login system.',
+      image: 'https://images.unsplash.com/photo-1580910051070-cd08b1f34b49?auto=format&fit=crop&w=800&q=80',
+      tech: ['Python', 'Flask', 'MongoDB', 'HTML', 'CSS', 'Bootstrap'],
+      github: 'https://github.com/trinadhsamudrala11/electronic-store', // Replace if needed
       demo: 'https://example.com',
     },
+  
     // {
     //   title: 'E-commerce Platform',
     //   description: 'Full-stack e-commerce solution with real-time inventory management and payment processing.',

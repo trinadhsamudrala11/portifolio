@@ -3,32 +3,43 @@ import React from 'react';
 const Experience = () => {
   const experiences = [
     {
-      company: 'Arizona State University',
-      role: 'Software Engineer',
+      company: 'Bath & Body Works',
+      role: 'AEM Developer',
       period: '2024 - Present',
-      description: 'Led development of microservices architecture, improving system scalability by 200%. Mentored junior developers and implemented best practices.',
+      description: 'Working on Adobe Experience Manager to build, maintain, and optimize content-driven applications, with a strong focus on automation, scalability, and performance.',
       achievements: [
-        
-        'Led team of 5 developers for major platform upgrade',
-        'Engineered a high-performance backend system with Javascript, Express.js and Node.js, enabling real-time data processing and efficient data retrieval from MongoDB and Redis databases.',
-        'Designed & developed front-end using Figma, HTML, CSS, Javascript, and React for web & mobile applications.',
-        'Conducted unit tests and code reviews using Mocha and Chai leading to the resolution of over 50 bugs.',
-        'Deployed applications on AWS, leveraging cloud services to enhance scalability by 50%.'
+        'Integrated Workfront API with AEM for asset ingestion and automated metadata tagging.',
+        'Migrated asset folders and metadata in bulk using JMX API and Java services.',
+        'Implemented GraphQL queries in AEM for efficient content retrieval and frontend performance.',
+        'Developed custom servlet and scheduled job to automate metadata updates from PIM using service accounts.',
+        'Worked with Brand Portal for asset publishing workflows and environment configuration.'
       ],
     },
     {
-      company: 'Accenture',
-      role: 'Application Development Associate',
-      period: '2021 - 2022',
-      description: 'Developed and maintained multiple client projects. Collaborated with design team for optimal UX.',
+      company: 'Infosys',
+      role: 'AEM Developer',
+      period: '2021',
+      description: 'Developed reusable AEM components and customized templates to meet marketing and content management goals.',
       achievements: [
-        'Developed front-end components using Angular, HTML, CSS, Javascript, and Typescript, enhancing the UI/UX.',
-        'Reduced API response time by 40% through optimization',
-        'Implemented database solutions for web applications using SQL Server and MySQL', 
-        'Implemented CI/CD pipeline reducing deployment time by 60%',
-        'Implemented automated testing increasing code coverage to 90%',
+        'Upgraded project from AEM 6.3 to 6.5 using Maven Archetype 24 and updated custom dispatcher rules.',
+        'Integrated Workfront DAM API to post metadata via JMX endpoints and update metadata with scheduled jobs.',
+        'Created OSGi configurations and services for multi-channel asset publishing and content replication.',
+        'Built backend workflows for asset metadata enrichment and migration via Talend jobs.',
       ],
     },
+    {
+      company: 'Vunathi Technologies',
+      role: 'AEM Developer',
+      period: '2019 - 2021',
+      description: 'Developed and maintained scalable AEM solutions, improving internal workflows and external customer experiences.',
+      achievements: [
+        'Developed customizable templates and backend components using Sling Models and HTL.',
+        'Worked on metadata workflows to ensure consistent tagging across DAM assets.',
+        'Developed secure admin and author access workflows using custom servlets and AEM permissions.',
+        'Integrated third-party systems with AEM using REST APIs and asset event handlers.'
+      ],
+    },
+  
     // {
     //   company: 'Datapoint',
     //   role: 'Full Stack Developer',

@@ -5,11 +5,11 @@ const Skills = () => {
   const skillCategories = [
     {
       title: 'Frontend',
-      skills: ['React', 'JavaScript', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Redux', 'Vue.js', 'Figma'],
+      skills: ['JavaScript', 'HTML', 'CSS', 'React', 'jQuery', 'AEM Components', 'OSGi', 'Apache Sling'],
     },
     {
       title: 'Backend',
-      skills: ['Python', 'Java', 'C#', 'Node.js', 'Express', 'Django', 'Flask', 'Spring Boot', '.NET'],
+      skills: ['Java', 'Python', 'Groovy', 'Node.js', 'Spring Boot', 'Flask', 'GraphQL', 'REST APIs' ],
     },
     {
       title: 'Database',
@@ -17,7 +17,7 @@ const Skills = () => {
     },
     {
       title: 'DevOps',
-      skills: ['Docker', 'Kubernetes', 'Jenkins', 'AWS', 'CI/CD', 'Linux', 'Git', 'Splunk', 'Prometheus', 'Terraform'],
+      skills: ['Jenkins', 'Docker', 'Bitbucket', 'Git', 'Jira', 'Workfront', 'Linux', 'AWS', 'Azure', 'GCP'],
     },
   ];
 

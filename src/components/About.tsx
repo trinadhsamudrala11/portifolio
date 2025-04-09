@@ -11,25 +11,25 @@ const About = () => {
             <FeatureCard
               icon={<Code2 className="w-8 h-8" />}
               title="Frontend Development"
-              description="Creating responsive and intuitive user interfaces using modern frameworks and best practices."
+              description="Building responsive and intuitive UI using HTML, CSS, React, and AEM Components. Focused on performance and usability."
             />
             <FeatureCard
               icon={<Server className="w-8 h-8" />}
               title="Backend Development"
-              description="Building scalable server-side applications and RESTful APIs with robust architecture."
+              description="Creating scalable server-side apps using Java, Python, and Groovy. Integrated REST APIs and GraphQL for content delivery.."
             />
             <FeatureCard
               icon={<Globe className="w-8 h-8" />}
               title="Full Stack Solutions"
-              description="Delivering end-to-end solutions from database design to deployment and maintenance."
+              description="Delivering end-to-end cloud-integrated systems using AEM, CI/CD, Workfront, Docker, and AWS with high performance in mind."
             />
           </div>
           <div className="mt-12 text-gray-600 leading-relaxed">
             <p className="mb-4">
-              With over 2 years of experience in software development, I specialize in building
-              high-performance web applications using modern technologies. My expertise spans
-              across the entire development stack, from crafting elegant user interfaces to
-              designing robust & efficient backend systems.
+            With hands-on experience across Bath & Body Works, Infosys, and Vunathi Technologies, I specialize in developing scalable digital experiences using Adobe Experience Manager (AEM), Java, and modern cloud-based architectures. 
+  I’ve contributed to improving metadata workflows, optimizing deployment pipelines, and integrating content delivery systems with GraphQL, Workfront, and inRiver PIM.
+
+  My expertise bridges frontend and backend development — from building reusable AEM components to delivering REST/GraphQL APIs and automating marketing workflows.
             </p>
             <p>
               I'm passionate about clean code, performance optimization, and creating

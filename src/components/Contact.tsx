@@ -16,20 +16,20 @@ const Contact = () => {
             <ContactCard
               icon={<Mail className="w-6 h-6" />}
               title="Email"
-              value="phani.kumar855@gmail.com"
-              href="mailto:phani.kumar855@gmail.com"
+              value="trinadhsamudrala11@gmail.com"
+              href="mailto:trinadhsamudrala11@gmail.com"
             />
             <ContactCard
               icon={<Linkedin className="w-6 h-6" />}
               title="LinkedIn"
-              value="linkedin.com/in/phani-kanuri"
-              href="https://www.linkedin.com/in/phani-kanuri/"
+              value="linkedin.com/trinadh-samudrala"
+              href="https://www.linkedin.com/trinadh-samudrala"
             />
             <ContactCard
               icon={<Github className="w-6 h-6" />}
               title="GitHub"
-              value="github.com/phanikum4r"
-              href="https://github.com/phanikum4r"
+              value="github.com/trinadhsamudrala11"
+              href="https://github.com/trinadhsamudrala11"
             />
           </div>
         </div>

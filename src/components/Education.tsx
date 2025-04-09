@@ -5,13 +5,13 @@ import { Section } from './shared/Section';
 const Education = () => {
   const education = [
     {
-      degree: "Master of Science in Computer Science",
-      school: "Arizona State University",
-      location: "Tempe, AZ",
+      degree: "Master of Science in Computer and Information Sciences",
+      school: "George Mason University",
+      location: "Fairfax, VA",
       period: "2022 - 2024",
       description: "Core focus on Algorithms, Software Design and Software Testing. Research focus on Machine Learning and Data Science.",
       achievements: [
-        "GPA: 3.73/4.0",        
+        "GPA: 3.7/4.0",        
       ]
     },
     {
@@ -23,7 +23,7 @@ const Education = () => {
       achievements: [
         "Led University Coding Club",
         "First Place in Annual Hackathon",
-        "Published research paper on blockchain based decentralized vehicle booking service"
+        
       ]
     }
   ];

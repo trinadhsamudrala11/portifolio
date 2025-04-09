@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-sm">
-            © {currentYear} Gayathri Phani Kumar Kanuri. All rights reserved.
+            © {currentYear} Trinadh Samudrala. All rights reserved.
           </p>
           {/* <div className="mt-4">
             <a

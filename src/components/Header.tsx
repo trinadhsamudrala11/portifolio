@@ -29,7 +29,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <nav className="flex items-center justify-between">
           <a href="#" className="text-2xl font-bold text-indigo-600">
-            Phani Kanuri
+            Trinadh Samudrala
           </a>
 
           {/* Desktop Navigation */}

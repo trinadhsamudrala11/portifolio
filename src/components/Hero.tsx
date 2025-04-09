@@ -25,8 +25,8 @@ const Hero = () => {
             </div>
             <div className="text-center md:text-left flex-1">
               <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">
-                Phani Kanuri
-                <span className="block text-3xl md:text-4xl mt-2">Full Stack Developer</span>
+                Trinadh Samudrala
+                <span className="block text-3xl md:text-4xl mt-2">Java Developer</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                 Crafting exceptional digital experiences with modern technologies.
@@ -49,7 +49,7 @@ const Hero = () => {
           </div>
           <div className="flex justify-center md:justify-start space-x-6">
             <SocialLink href="https://github.com/trinadhsamudrala11" icon={<Github />} label="GitHub" />
-            <SocialLink href="https://www.linkedin.com/trinadh-samudrala" icon={<Linkedin />} label="LinkedIn" />
+            <SocialLink href="https://www.linkedin.com/in/trinadh-samudrala" icon={<Linkedin />} label="LinkedIn" />
             <SocialLink href="https://leetcode.com/u/trinadh11/" icon={<Code />} label="Leetcode" />
             <SocialLink href="mailto:trinadhsamudrala11@gmail.com" icon={<Mail />} label="Email" />
           </div>

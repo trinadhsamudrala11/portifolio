@@ -22,8 +22,8 @@ const Contact = () => {
             <ContactCard
               icon={<Linkedin className="w-6 h-6" />}
               title="LinkedIn"
-              value="linkedin.com/trinadh-samudrala"
-              href="https://www.linkedin.com/trinadh-samudrala"
+              value="linkedin.com/in/trinadh-samudrala"
+              href="https://www.linkedin.com/in/trinadh-samudrala"
             />
             <ContactCard
               icon={<Github className="w-6 h-6" />}
